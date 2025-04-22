@@ -15,7 +15,7 @@
 ### Код решения задачи:
 
 ````
-    class Task:
+class Task:
     def __init__(self, name):
         self.name = name
 
@@ -43,7 +43,7 @@ class TaskQueue:
 
 ### Примеры тестовых данных и ожидаемых результатов:
 ```` 
-   queue = TaskQueue()
+queue = TaskQueue()
 
 task1 = Task("Задача 1")
 task2 = Task("Задача 2")
